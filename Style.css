@@ -18,7 +18,7 @@ h2{
 
 h3{
     background-color: #424242;
-    color: #29B6F6;
+    color: #80DEEA;
     font-size: 1.4em;
     padding: 5px 0px;
 }
@@ -41,17 +41,17 @@ mark{
     background-color: white;
 }
 #prenom{
-    color: #29B6F6;
+    color: #80DEEA;
 }
 #develo{
-    text-decoration: underline #29B6F6;
+    text-decoration: underline #80DEEA;
 }
 nav{
     
     width: 25%;
     min-width: 200px;
     max-width: 363px;
-    background-color:#29B6F6;
+    background-color:#80DEEA;
     color: #424242;
     text-align:center;
     
@@ -87,5 +87,5 @@ header{
 }
 
 .souligne{
-    border-bottom: 3PX #29B6F6 solid;
+    border-bottom: 3PX #80DEEA solid;
 }
