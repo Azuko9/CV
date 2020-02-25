@@ -8,9 +8,14 @@ body{
     min-width: 512px;
 }
 h1{
-    font-size: 170%;
+    font-size: 3em;
     margin: 0px;
 }
+h2{
+    font-size: 2em;
+}
+
+
 h3{
     background-color: #424242;
     color: #29B6F6;
@@ -27,30 +32,27 @@ h4{
 #conteneurA1{
     height: 100%;
     display: flex;
-    font-size: 1em;
+    font-size: 1.2em;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#conteneurA2{
-    display: flex;
-    flex-direction: column;
+mark{
+    background-color: white;
 }
-
-header{
-    margin: 2% 0%;
-}
-
 #prenom{
     color: #29B6F6;
 }
-
+#develo{
+    text-decoration: underline #29B6F6;
+}
 nav{
     
     width: 25%;
     min-width: 200px;
     max-width: 363px;
     background-color:#29B6F6;
+    color: #424242;
     text-align:center;
     
 }
@@ -70,8 +72,20 @@ nav{
     
 }
 
-
 section{
     margin: 20px;
     max-width: 800px;
+}
+
+#conteneurA2{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 2% 0%;
+}
+
+.souligne{
+    border-bottom: 3PX #29B6F6 solid;
 }
