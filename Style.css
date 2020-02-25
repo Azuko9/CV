@@ -10,11 +10,11 @@ body{
 h1{
     font-size: 180%;
 }
-#conteneur{
+#conteneurA{
     display: flex;
     justify-content: flex-start;
 }
-#conteneur1{
+#conteneurB{
     display: flex;
     flex-direction: column;
     
