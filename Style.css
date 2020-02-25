@@ -14,11 +14,21 @@ header{
 }
 
 nav{
+    font-style: center;
     position: relative;
-    width: 30%;
+    width: 25%;
     background-color:#4DB6AC;
+    text-align:center;
+}
+#photoId{
+    width: 80%;
+    padding: 10%;
+}
+#prenom{
+    color: #4DB6AC;
 }
 
-#prenom{
+h3{
+    background-color: white;
     color: #4DB6AC;
 }
