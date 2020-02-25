@@ -4,17 +4,28 @@
 }
 
 body{
-    font: 0.8em "Eurostile";
+    font: 0.7em "Eurostile";
     min-width: 512px;
 }
 h1{
-    font-size: 180%;
+    font-size: 170%;
+    margin: 0px;
+}
+h4{
+    margin: 2px;
 }
 #conteneurA{
     display: flex;
     justify-content: flex-start;
 }
-#conteneurB{
+#conteneurA1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#conteneurA2{
     display: flex;
     flex-direction: column;
     
@@ -22,21 +33,22 @@ h1{
 }
 
 header{
-    margin: 11.5% 0%;
+    margin: 2% 0%;
+   
     
     
     
 }
 
 nav{
-    font-style: center;
-    position: relative;
+    
     width: 25%;
     min-width: 200px;
     max-width: 363px;
     background-color:#4DB6AC;
     text-align:center;
 }
+
 #photoId{
     width: 80%;
     
