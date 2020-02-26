@@ -28,12 +28,12 @@ h3{
 
 h4{
     font-size: 0.9em;
-    margin: 10px 0 0 0;
+    margin: 0;
 }
 
 h5{
     font-size: 1.2em;
-    margin: 10px 0 5px 5px;
+    margin: 5px;
 }
 
 h6{
@@ -41,7 +41,12 @@ h6{
     margin: 5px;
 }
 
-
+div{
+    padding: 5px;
+}
+ul{
+    margin: 0px;
+}
 
 /*colone profile cv */
 #conteneurA{
@@ -122,8 +127,8 @@ header{
 }
 
 .titreElement{
-    width: 100px;
- 
+    min-width: 90px;
+    width: 90px;
 }
 
 /*--icones--*/
@@ -146,4 +151,14 @@ header{
     font-size: 1.5em;
     margin: 0 15px 0 5px;
     padding-bottom: 0px;
+}
+
+.fa-dot-circle{
+    color: #80DEEA;
+    font-size: 1.1em;
+}
+
+.fa-circle{
+    color: #80DEEA;
+    font-size: 0.9em;
 }
