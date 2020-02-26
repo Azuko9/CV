@@ -45,7 +45,17 @@ div{
     padding: 5px;
 }
 ul{
-    margin: 0px;
+    list-style: none;
+}
+ul li::before{
+    content: "\2022";
+    color: #80DEEA;
+    display: inline-block; 
+    width: 2em; 
+}
+
+ ul li.liCircle::before{
+    list-style-type:circle;
 }
 
 /*colone profile cv */
