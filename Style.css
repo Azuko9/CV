@@ -7,6 +7,8 @@ body{
     font: 0.7em "Eurostile";
     min-width: 640px;
     display: flex;
+    
+    
 }
 
 /*config des titres */
@@ -41,9 +43,7 @@ h6{
     margin: 5px;
 }
 
-div{
-    padding: 5px 0;
-}
+
 ul{
     list-style: none;
     padding-left: 0;
@@ -55,13 +55,14 @@ ul li::before{
     width: 2em; 
 }
 
-
-
+article:nth-child(2){
+    flex-grow: 2;
+}
 /*colone profile cv */
 #conteneurA{
     height: 100%;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 500px;
     display: flex;
     font-size: 1.2em;
     flex-direction: column;
@@ -109,14 +110,16 @@ ul li::before{
   }
 
 article{
-    margin: 20px;
-    max-width: 800px;
+    margin: 10px;
+    
 }
 
 /*colone blanche cv*/
 #conteneurB{
+    width: 100%;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 header{
@@ -164,11 +167,13 @@ header{
 }
 
 .fa-dot-circle{
+    margin-right: 10px;
     color: #80DEEA;
     font-size: 1.1em;
 }
 
 .fa-circle{
+    margin-right: 10px;
     color: #80DEEA;
     font-size: 0.9em;
 }
