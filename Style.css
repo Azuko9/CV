@@ -2,19 +2,21 @@
     font-family:"Eurostile";
     src: url("Eurostile.ttf");
 }
-
+/* config de la page web */
 body{
     font: 0.7em "Eurostile";
     min-width: 640px;
 }
+
+/*config des titres */
 h1{
     font-size: 3em;
     margin: 0px;
 }
+
 h2{
     font-size: 2em;
 }
-
 
 h3{
     background-color: #424242;
@@ -25,6 +27,8 @@ h3{
 h4{
     margin: 2px;
 }
+
+
 #conteneurA{
     display: flex;
     justify-content: flex-start;
@@ -35,6 +39,12 @@ h4{
     font-size: 1.2em;
     flex-direction: column;
     justify-content: space-between;
+    width: 25%;
+    min-width: 200px;
+    max-width: 363px;
+    background-color:#80DEEA;
+    color: #424242;
+    text-align:center;
 }
 
 
@@ -44,16 +54,7 @@ h4{
 #develo{
     text-decoration: underline #80DEEA;
 }
-nav{
-    
-    width: 25%;
-    min-width: 200px;
-    max-width: 363px;
-    background-color:#80DEEA;
-    color: #424242;
-    text-align:center;
-    
-}
+
 
 #photoId{
     width: 80%;
