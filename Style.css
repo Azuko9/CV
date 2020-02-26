@@ -42,10 +42,11 @@ h6{
 }
 
 div{
-    padding: 5px;
+    padding: 5px 0;
 }
 ul{
     list-style: none;
+    padding-left: 0;
 }
 ul li::before{
     content: "\2022";
@@ -54,9 +55,7 @@ ul li::before{
     width: 2em; 
 }
 
- ul li.liCircle::before{
-    list-style-type:circle;
-}
+
 
 /*colone profile cv */
 #conteneurA{
@@ -137,8 +136,9 @@ header{
 }
 
 .titreElement{
-    min-width: 90px;
-    width: 90px;
+    width: 25%;
+    min-width: 70px;
+    overflow: hidden;
 }
 
 /*--icones--*/
