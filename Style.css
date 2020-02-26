@@ -5,7 +5,7 @@
 
 body{
     font: 0.7em "Eurostile";
-    min-width: 512px;
+    min-width: 640px;
 }
 h1{
     font-size: 3em;
@@ -67,8 +67,16 @@ nav{
 
 #texteIntro{
     margin: 10%;
+    font-size: 1.2em;
     
 }
+
+.fas{
+    color: #424242;
+    font-size: 2em;
+    margin: 5px;
+    padding-bottom: 18px;
+  }
 
 article{
     margin: 20px;
@@ -86,4 +94,27 @@ header{
 
 .souligne{
     border-bottom: 3PX #80DEEA solid;
+    padding-bottom: 2px;
+    
+}
+
+.fa-laptop-code{
+    color: #80DEEA;
+    font-size: 1.5em;
+    margin: 0 15px 0 5px;
+    padding-bottom: 0px;
+}
+
+.fa-graduation-cap{
+    color: #80DEEA;
+    font-size: 1.5em;
+    margin: 0 15px 0 5px;
+    padding-bottom: 0px;
+}
+
+.fa-briefcase{
+    color: #80DEEA;
+    font-size: 1.5em;
+    margin: 0 15px 0 5px;
+    padding-bottom: 0px;
 }
