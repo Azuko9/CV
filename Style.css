@@ -11,20 +11,20 @@ body{
 
 /*config des titres */
 h1{
-    font-size: 2em;
-    margin: 0 20px 0 0;
+    font-size: 3.5vw;
+    margin: 0 15px 0 0;
 }
 
 h2{
     background-color: #424242;
     color: #80DEEA;
-    font-size: 1.4em;
+    font-size: 1.4ew;
     padding: 5px;
 }
 
 h3{
     font-size: 2em;
-    margin: 4px 0 16px 0;
+    margin: 4px 0 4% 0;
    
 }
 h4{
@@ -129,12 +129,14 @@ article{
 header{
     display: flex;
     flex-wrap: wrap;
-    margin: 14% 0;
-    
+    margin: 7% 0;
 }
 
 #prenom{
     color: #80DEEA;
+}
+#ProfessionTitre{
+    font-size: 2.5vw;
 }
 #develo{
     border-bottom: 2PX #80DEEA solid;
