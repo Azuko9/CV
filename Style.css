@@ -1,10 +1,7 @@
-@font-face{
-    font-family:"Eurostile";
-    src: url("Eurostile.ttf");
-}
+
 /* config de la page web */
 body{
-    font: 0.7em "Eurostile";
+    font-family: Arial, Helvetica, sans-serif;
     min-width: 640px;
     display: flex;
     
