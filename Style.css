@@ -2,7 +2,7 @@
 /* config de la page web */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: 1em;
     min-width: 640px;
     display: flex;
     
@@ -11,7 +11,7 @@ body{
 
 /*config des titres */
 h1{
-    font-size: 3em;
+    font-size: 2em;
     margin: 0 20px 0 0;
 }
 
@@ -24,7 +24,7 @@ h2{
 
 h3{
     font-size: 2em;
-    margin: 6.5px 0;
+    margin: 4px 0 16px 0;
    
 }
 h4{
@@ -34,18 +34,19 @@ h4{
 
 h5{
     font-size: 1.2em;
-    margin: 5px;
+    margin: 0;
 }
 
 h6{
     font-size: 0.9em;
-    margin: 5px;
+    margin: 3px;
 }
 
 
 ul{
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 ul li::before{
     content: "\2022";
@@ -136,12 +137,14 @@ header{
     color: #80DEEA;
 }
 #develo{
-    text-decoration: underline #80DEEA;
+    border-bottom: 2PX #80DEEA solid;
+    
     
 }
 .souligne{
     border-bottom: 3PX #80DEEA solid;
     padding-bottom: 2px;
+
     
 }
 
@@ -182,11 +185,11 @@ header{
 .fa-dot-circle{
     margin-right: 10px;
     color: #80DEEA;
-    font-size: 1.1em;
+    
 }
 
 .fa-circle{
     margin-right: 10px;
     color: #80DEEA;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
