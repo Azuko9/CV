@@ -13,13 +13,14 @@
 
     
         
-    <article ><!--colone profile cv-->
-        <div id="conteneurA">
-            <div>
+    <article id="conteneurA"><!--colone profile cv-->
+            <header>
                 <p><img id="photoId" src="photoprofil.gif" alt="Photo de profil" /></p><!--photo de profil-->
-                       
+            </header>
+            
+            <aside>
                 <h2>CONTACT</h2>
-                    <div id="contact">
+                    <article id="contact">
                         <p><strong>Adresse</strong><br />
                         73 rue d'espagne<br />
                         64100 Bayonne</p>
@@ -33,47 +34,35 @@
                         <p><strong>Site Web</strong><br />
                         <a href="http://www.acidblue.fr/">www.acidblue.fr</a></p>
 
-                    </div>
-                    
+                    </article>
+                 
                 <h2>A PROPOS DE MOI</h2>
                     <div id="texteIntro">
                         <P >Mon objectif est de me spécialiser dans le développement des solutions
                             intéractives du numérique 
                             afin d'optimiser les nouvelles expériences de communication.</P>
                     </div>
-            </div>
+            </aside>   
 
-            <div>
+            <footer>
                 <h2>LOISIRS</h2>
-                     <div id="loisiricones">  
-                        <div>
-                            <i class="fas fa-vr-cardboard"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-gamepad"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-mountain"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-bicycle"></i>
-                        </div>
-                        
-                    </div>    
-            </div>
-        </div>
+                <nav id="loisiricones">  
+                    <i class="fas fa-vr-cardboard"></i>
+                    <i class="fas fa-gamepad"></i>
+                    <i class="fas fa-mountain"></i>
+                    <i class="fas fa-bicycle"></i>
+                </nav>    
+            </footer>
     </article>  
         
     <article><!--colone blanche cv-->
-
-        <div id="conteneurB"><!--Nom,prénom-->
             <header>
                 <h1 ><span id="prenom">JEAN-LUC</span> CAZALAA-ARRIBES</h1>
                 <h1 id="ProfessionTitre"><span id="develo">Dévelo</span>ppeur Freelance Web & Unity VR</h1>
             </header>
             
-                <section> <!-- partie Expérence -->
-               
+            <section> <!-- partie Expérence -->
+                <article>
                     <h3 class="souligne"><i class="fas fa-laptop-code"></i>EXPERIENCE</h3>
                         <div class="element">
                             <div><i class="far fa-dot-circle"></i></div>
@@ -90,8 +79,8 @@
                             </div>
                             
                         </div>
-                
-                        
+                </article>
+                <article>
                         <div class="element">
                             <div><i class="fas fa-circle"></i></div>
                             <div class="titreElement">
@@ -106,7 +95,8 @@
                             </div>
                             
                         </div>
-
+                </article>
+                <article>
                         <div class="element">
                             <div><i class="fas fa-circle"></i></div>
                             <div class="titreElement">
@@ -121,7 +111,8 @@
                             </div>
                             
                         </div>
-
+                </article>
+                <article>
                         <div class="element">
                             <div><i class="fas fa-circle"></i></div>
                             <div class="titreElement">
@@ -136,11 +127,12 @@
                             </div>
                             
                         </div>
-                </section>
+                </article>
+            </section>
             
-                <section><!-- partie formation -->
-                    <h3 class="souligne"><i class="fas fa-graduation-cap"></i>FORMATION</h3>
-                    
+            <section><!-- partie formation -->
+                <h3 class="souligne"><i class="fas fa-graduation-cap"></i>FORMATION</h3>
+                <article>
                     <div class="element">
                         <div><i class="far fa-dot-circle"></i></div>
                         <div class="titreElement">
@@ -161,7 +153,8 @@
                         </div>
                        
                     </div>
-
+                </article>
+                <article>
                     <div class="element">
                         <div><i class="fas fa-circle"></i></div>
                         <div class="titreElement">
@@ -182,7 +175,8 @@
                         </div>
                        
                     </div>
-
+                </article>
+                <article>   
                     <div class="element">
                         <div><i class="fas fa-circle"></i></div>
                         <div class="titreElement">
@@ -212,46 +206,48 @@
                         </div>
                        
                     </div>
-                </section>
+                </article>
+            </section>
 
-                <section><!-- partie parcours professionels -->
+            <section><!-- partie parcours professionels -->
                     <h3 class="souligne"><i class="fas fa-briefcase"></i>PARCOURS PROFESSIONELS</h3>
-                    
-                    <div class="element">
-                        <div><i class="far fa-dot-circle"></i></div>
-                        <div class="titreElement">
-                            <h4>2007 / 2018 <br /> Bayonne</h4>
-                        </div>
-                        <div>
-                            <ul>
-                                
-                                    <li><h5>Vendeur expert dans divers grands groupes (Fnac,Numericable, SFR...) </h5></li>
-                                        
-                                            <li>Management d'équipe</li>
-                                            <li>Gestion boutique</li>
-                                        
-                                
-                            </ul>
-                        </div>
-                        
-                    </div>
-
-                    <div class="element">
-                        <div><i class="fas fa-circle"></i></div>
-                        <div class="titreElement">
-                            <h4>avant 2007 <br />Pau</h4>
-                        </div>
-                        <div>
-                            
-                                <h5>Diverses missions intérim dans plusieurs domaines en manutentions et agent de propreté</h5>
+                    <article>
+                        <div class="element">
+                            <div><i class="far fa-dot-circle"></i></div>
+                            <div class="titreElement">
+                                <h4>2007 / 2018 <br /> Bayonne</h4>
+                            </div>
+                            <div>
+                                <ul>
+                                    
+                                        <li><h5>Vendeur expert dans divers grands groupes (Fnac,Numericable, SFR...) </h5></li>
+                                            
+                                                <li>Management d'équipe</li>
+                                                <li>Gestion boutique</li>
+                                            
+                                    
+                                </ul>
+                            </div>
                             
                         </div>
-                        
-                    </div>
-                </section>
-            </div>
-            
-        </article>
+                    </article>
+                    <article>
+                        <div class="element">
+                            <div><i class="fas fa-circle"></i></div>
+                            <div class="titreElement">
+                                <h4>avant 2007 <br />Pau</h4>
+                            </div>
+                            <div>
+                                
+                                    <h5>Diverses missions intérim dans plusieurs domaines en manutentions et agent de propreté</h5>
+                                
+                            </div>
+                            
+                        </div>
+                    </article>
+            </section>
+          
+    </article>
 
 </body>
 </html>
