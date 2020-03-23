@@ -18,7 +18,8 @@ main{
     background-color: white;
     min-height: 768px;
     max-height: 1080px;
-    width: 763px;
+    height: 100vh;
+    max-width: 763px;
     
 }
 
