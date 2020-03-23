@@ -16,10 +16,8 @@ main{
     display: flex;
     justify-content: flex-start ;
     background-color: white;
-    min-height: 768px;
-    max-height: 1080px;
-    height: 100vh;
-    max-width: 763px;
+    height: 1080px;
+    width: 763px;
     
 }
 
