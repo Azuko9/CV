@@ -21,10 +21,16 @@ main{
 }
 
 
+
+
 /*config des titres */
 h1{
     font-size: 1.5em;
-    margin: 0 15px 0 0;
+    margin: 0;
+}
+
+#h1aside{
+display: none;
 }
 
 .asidetitle{
@@ -36,8 +42,15 @@ h1{
     width: 100%;
 }
 
+#articleP{
+    margin: 0 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 h2{
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0 0 4% 0;
 }
 
@@ -47,12 +60,12 @@ h3{
 
 }
 h4{
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 0;
 }
 
 h5{
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 0;
 }
 
@@ -72,15 +85,11 @@ ul li::before{
     color: #80DEEA;
     display: inline-block; 
     width: 1.1em;
+    
 }
-
-@media screen and (max-width: 1920px)
-{
-        li{
-        font-size: 0.8em;
-    }
+li{
+    font-size: 0.8em;
 }
-
 
 article:nth-child(2){
     flex-grow: 2;
@@ -96,8 +105,10 @@ article:nth-child(2){
     color: #424242;
     text-align:center;
 }
+
 #detail{
     align-self: flex-start;
+    
 }
 a
 {
@@ -110,7 +121,8 @@ a:hover{
 
 
 #photoId{
-    width: 90%;
+    width: 100%;
+    
 }
 
 /* contact */
@@ -136,12 +148,10 @@ p {
 
 /*colone blanche cv*/
 
-#articleP{
-    margin: 10px 20px;
-}
+
 
 header{
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
     
