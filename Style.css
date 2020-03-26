@@ -19,7 +19,7 @@ main{
     
 }
 
-@media screen and (min-width: 769px)
+@media screen and (min-width: 1281px)
 {
     main{
         width: 611px;
@@ -36,7 +36,7 @@ main{
     }
 }
 
-@media screen and (min-width: 1081px)
+@media screen and (min-width: 1921px)
 {
     main{
         width: 713px;
