@@ -45,13 +45,13 @@ main{
     }
     h2{
         color: white;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
 
     #photoId{
         width: 100px;
-        margin: 20px 0 0 0;
+        margin: 5px 0 0 0;
     }
     #detail{
         align-content: flex-start;
@@ -211,7 +211,7 @@ h2{
 
 h3{
     font-size: 1em;
-    margin: 12px 0 4% 0;
+    margin: 25px 0 4% 0;
 
 }
 h4{
