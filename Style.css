@@ -29,11 +29,11 @@ main{
     main{
         flex-direction: column;
         width: 100vw;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     #headaside{
-        font-size: 1.2em;
+        font-size: 1.1em;
         }
     #conteneurA{
         height:100vh;
@@ -41,11 +41,11 @@ main{
     
 
     h1{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     h2{
         color: white;
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
 
@@ -211,7 +211,7 @@ h2{
 
 h3{
     font-size: 1em;
-    margin: 4px 0 4% 0;
+    margin: 12px 0 4% 0;
 
 }
 h4{
