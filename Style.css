@@ -57,8 +57,7 @@ main{
         align-content: flex-start;
     }
 
-    p{
-        font-size: 0.8em;
+    figure{
         margin: 5px;
     }
     
@@ -102,8 +101,8 @@ main{
     #photoId{
         width: 100%;
     }
-    p{
-        text-align: left;
+    figure{
+        
         margin: 10px;
     }
 }
@@ -142,7 +141,7 @@ main{
     #photoId{
         width: 100%;
     }
-    p{
+    figure{
         text-align: left;
         margin: 20px;
     }
@@ -180,8 +179,7 @@ main{
     #photoId{
         width: 100%;
     }
-    p{
-        text-align: left;
+    figure{
         margin: 20px;
     }
 }
