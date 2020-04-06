@@ -34,6 +34,7 @@ main{
 
     #conteneurA{
         height:100vh;
+        justify-content: space-between;
     }
     
 
@@ -49,9 +50,6 @@ main{
     #photoId{
         width: 45vw;
         margin-top: 2vw;
-    }
-    #detail{
-        align-content: flex-start;
     }
 
     figure{
@@ -254,7 +252,6 @@ article:nth-child(2){
 #conteneurA{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color:#80DEEA;
     color: #424242;
     text-align:center;
@@ -270,7 +267,9 @@ a:hover{
 }
 
 
-
+#detail{
+    flex: 1;
+}
 
 
 /*loisirs*/
@@ -285,6 +284,8 @@ a:hover{
     font-size: 1.5em;
 
 }
+
+
 
 /*colone blanche cv*/
 
