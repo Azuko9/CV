@@ -79,7 +79,7 @@ main{
         }
 
     h1{
-        font-size: 2em;
+        font-size: 1.2em;
     }
     
 
@@ -217,7 +217,7 @@ a:hover{
     color: #80DEEA;
 }
 #ProfessionTitre{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 #develo{
     border-bottom: 2PX #80DEEA solid;
