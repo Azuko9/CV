@@ -157,7 +157,7 @@ ul{
 }
 ul li::before{
     content: "\2022";
-    color: #80DEEA;
+    color: green;
     display: inline-block; 
     width: 1em;
     
