@@ -9,7 +9,6 @@ body{
 }
 main{
     display: flex;
-    font-size: 0.8em;
     background-color: white;
     
 }
@@ -33,11 +32,13 @@ main{
     }
 
     #conteneurA{
-        height:100vh;
+        min-height:100vh;
         justify-content: space-between;
     }
     
-
+    #headaside{
+        text-align: center;
+        }
     h1{
         font-size: 5vw;
     }
@@ -48,7 +49,7 @@ main{
 
 
     #photoId{
-        width: 45vw;
+        width: 40vw;
         margin-top: 2vw;
     }
 
@@ -67,53 +68,10 @@ main{
     body{
         display: flex;
         justify-content: center;
-        align-items: center;
-        height: 100vh;
     }
     main{
-        width: 499px;
-        height: 680px;
-    }
-
-    #headaside{
-        display: none;
-        }
-
-    h1{
-        font-size: 1.5em;
-    }
-    
-
-    #conteneurA{
-        width: 160px;
-    }
-
-
-    header{
-        margin: 5px 0;
-    }
-    
-    #photoId{
-        width: 100%;
-    }
-    figure{
-        
-        margin: 10px;
-    }
-}
-
-@media screen and (min-width: 1367px) 
-{
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-
-    main{
-        width: 611px;
-        height: 864px;
+        min-height: 100vh;
+        width: calc(100vh * 0.7071);
     }
 
     #headaside{
@@ -123,66 +81,24 @@ main{
     h1{
         font-size: 2em;
     }
+    
 
     #conteneurA{
-        width: 192px;
+        width: 32%;
     }
 
 
     header{
-        margin: 50px 0;
+        margin: 5px 0;
     }
-
+    
     #photoId{
-        width: 100%;
+        width: 90%;
     }
     figure{
-        text-align: left;
-        margin: 20px;
+        
+        margin: 10px;
     }
-}
-
-@media screen and (min-width: 1921px)
-{
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-
-    main{
-        width: 713px;
-        height: 1008px;
-    }
-    #headaside{
-        display: none;
-        }
-    h1{
-        font-size: 3.5em;
-    }
-
-    #conteneurA{
-        width: 294px;
-    }
-
-
-    header{
-        margin: 65px 0;
-    }
-
-    #photoId{
-        width: 100%;
-    }
-    figure{
-        margin: 20px;
-    }
-}
-
-
-/*config des titres */
-h1{
-    margin: 0;
 }
 
 
@@ -193,11 +109,16 @@ h1{
     padding: 5px 0;
     margin-bottom: 10px;
     width: 100%;
+    text-align: center;
 }
 
-#articleP{
+#sectionP{
     margin: 20px;
+
+    
 }
+
+
 
 h2{
     margin: 0 0 4% 0;
@@ -223,7 +144,7 @@ h6{
     margin: 3px;
 }
 p{
-    margin: 0 0 10px 0;
+    margin: 10px 20px;
 }
 .pBold{
     font-weight: bold;
@@ -238,7 +159,7 @@ ul li::before{
     content: "\2022";
     color: #80DEEA;
     display: inline-block; 
-    width: 1.1em;
+    width: 1em;
     
 }
 li{
@@ -249,12 +170,14 @@ article:nth-child(2){
     flex-grow: 2;
 }
 /*colone profile cv */
+figure{
+    text-align: center;
+}
 #conteneurA{
     display: flex;
     flex-direction: column;
     background-color:#80DEEA;
     color: #424242;
-    text-align:center;
 }
 
 
@@ -269,6 +192,7 @@ a:hover{
 
 #detail{
     flex: 1;
+    text-align: justify;
 }
 
 
@@ -293,7 +217,7 @@ a:hover{
     color: #80DEEA;
 }
 #ProfessionTitre{
-    font-size: 1em;
+    font-size: 1.3em;
 }
 #develo{
     border-bottom: 2PX #80DEEA solid;
